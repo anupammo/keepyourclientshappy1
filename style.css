@@ -82,8 +82,9 @@ img.img-bw {
 }
 button.close {
     position: absolute;
-    top: 10px;
+    top: 15px;
     right: 15px;
+    color: #f9d938;
 }
 .card-border {
     border: #174795 solid 1px;
@@ -97,4 +98,15 @@ button.close {
     border: solid 2px #fff;
     border-radius: 0px;
     padding: 10px 30px;
+}
+input#fullname, input#email {
+    border-radius: 0px;
+}
+button#btn-blue {
+    border-radius: 0px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+}
+.modal-content {
+    border-radius: 0px;
 }
