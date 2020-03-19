@@ -1,0 +1,100 @@
+header, #bg-stressed {
+    background-image: url(stressed-business-man-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: #174795 solid 3px;
+}
+section {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+h1 {
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.4em;
+}
+header p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.bg-layer {
+    background: rgb(23,71,149);
+    background: -moz-linear-gradient(90deg, rgba(23,71,149,1) 50%, rgba(255,255,255,0) 52%);
+    background: -webkit-linear-gradient(90deg, rgba(23,71,149,1) 50%, rgba(255,255,255,0) 52%);
+    background: linear-gradient(90deg, rgba(23,71,149,1) 50%, rgba(255,255,255,0) 52%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#174795",endColorstr="#ffffff",GradientType=1);
+}
+div.brandbar {
+    background: rgb(23,71,149);
+    background: -moz-linear-gradient(90deg, rgba(23,71,149,1) 50%, rgba(249,217,56,1) 50%);
+    background: -webkit-linear-gradient(90deg, rgba(23,71,149,1) 50%, rgba(249,217,56,1) 50%);
+    background: linear-gradient(90deg, rgba(23,71,149,1) 50%, rgba(249,217,56,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#174795",endColorstr="#f9d938",GradientType=1);
+}
+img.cpa-logo {
+    margin: 0 auto;
+    display: block;
+}
+/* #cpa-logo:hover {
+    border-color: #f9d938 transparent transparent transparent;
+} */
+/* img.cpa-logo {
+    z-index: 11;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+} */
+.text-blue {
+    color: #174795;
+}
+.text-yellow {
+    color: #f9d938;
+}
+img.img-blue {
+    transition: .5s;
+    border: #fff solid 10px;
+    box-shadow: #174795 0px 0px 4px;
+}
+img.img-blue:hover {
+    border: #fff solid 10px;
+    box-shadow: #000 0px 0px 4px;
+    filter: grayscale(50%);
+}
+img.img-bw {
+    filter: grayscale(1);
+}
+.bg-yellow {
+    background-color: #f9d938;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+    height: 220px;
+}
+.bg-blue {
+    background-color: #174795;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+    height: 220px;
+}
+.blue-bg {
+    background-color: #174795;
+}
+button.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.card-border {
+    border: #174795 solid 1px;
+    border-radius: 0px;
+}
+.card-bg {
+    background-color: #174795;
+    border-radius: 0px;
+}
+#mybtn {
+    border: solid 2px #fff;
+    border-radius: 0px;
+    padding: 10px 30px;
+}
