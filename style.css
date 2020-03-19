@@ -14,10 +14,12 @@ h1 {
     font-size: 1.5rem;
     font-weight: 900;
     line-height: 1.4em;
+    text-shadow: #000 0px 0px 5px;
 }
 header p {
     margin-top: 20px;
     margin-bottom: 50px;
+    text-shadow: #000 0px 0px 5px;
 }
 .bg-layer {
     background: rgb(23,71,149);
