@@ -106,6 +106,8 @@ button#btn-blue {
     border-radius: 0px;
     padding: 10px 40px;
     text-transform: uppercase;
+    background-color: #174795;
+    border-color: #174795;
 }
 .modal-content {
     border-radius: 0px;
