@@ -1,5 +1,5 @@
 header, #bg-stressed {
-    background-image: url(stressed-business-man-2.jpg);
+    background-image: url(keep-your-clients-happy-stressed-business-man.webp);
     background-size: cover;
     background-position: center;
     border-bottom: #174795 solid 3px;
@@ -69,13 +69,18 @@ img.img-bw {
     background-color: #f9d938;
     padding: 15px 25px;
     margin-bottom: 15px;
-    height: 220px;
+    min-height: 220px;
 }
 .bg-blue {
     background-color: #174795;
     padding: 15px 25px;
     margin-bottom: 15px;
-    height: 220px;
+    min-height: 220px;
+}
+.bg-blue-section {
+    background-color: #174795;
+    padding: 15px 25px;
+    margin-bottom: 15px;
 }
 .blue-bg {
     background-color: #174795;
