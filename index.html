@@ -245,18 +245,24 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <form>
+                    <form method="POST" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbw6QOXTVEjkFLG_kvBFsl_xleBe8ryCrne2d3qy_g/exec">
                         <div class="form-group">
                             <label for="fullname">Full Name</label>
-                            <input type="fullname" class="form-control" id="fullname">
+                            <input type="fullname" class="form-control" id="name" name="name">
                         </div>
                         <div class="form-group">
                             <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                            <input class="form-control" id="honeypot" type="hidden" name="honeypot" value="" />
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
                         </div>
                         <button type="submit" class="btn btn-primary mx-auto d-block" id="btn-blue">Submit</button>
+                        <!-- Customise the Thankyou Message People See when they submit the form: -->
+                        <div class="thankyou_message" style="display:none;">
+                            <h2><em>Thanks</em> for contacting us!
+                            We will get back to you soon!</h2>
+                        </div> 
                     </form>
                 </div>
             </div>
