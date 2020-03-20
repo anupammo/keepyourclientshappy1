@@ -253,10 +253,16 @@
                         <div class="form-group">
                             <label for="email">Email address</label>
                             <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
-                            <input class="form-control" id="honeypot" type="hidden" name="honeypot" value="" />
+                            <!-- <input class="form-control" id="honeypot" type="hidden" name="honeypot" value="" /> -->
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
                         </div>
+                        <fieldset class="form-group honeypot-field">
+                            <!-- <label for="honeypot">To help avoid spam, utilize a Honeypot technique 
+                            with a hidden text field; must be empty to submit the form! Otherwise, we 
+                            assume the user is a spam bot.</label> -->
+                            <input class="form-control" id="honeypot" type="hidden" name="honeypot" value="" />
+                        </fieldset>  
                         <button class="btn btn-primary mx-auto d-block" id="btn-blue">Submit</button>
                         <!-- Customise the Thankyou Message People See when they submit the form: -->
                         <div class="thankyou_message" style="display:none;">
